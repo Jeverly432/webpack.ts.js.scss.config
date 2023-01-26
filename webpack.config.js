@@ -16,6 +16,9 @@ module.exports = {
     filename: "[name].[hash].js",
     path: path.resolve(__dirname, "dist"),
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+  },
   devServer: {
     port: 3020,
     hot: isDev,
@@ -67,7 +70,7 @@ module.exports = {
         },
       },
       {
-        test: /\.tsx$/,
+        test: /\.(js|jsx|tsx|ts)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -78,7 +81,7 @@ module.exports = {
               "@babel/preset-typescript",
             ],
 
-            plugins: ["@babel/plugin-proposal-class-properties"],
+            plugins: ["@babel/plugin-proposal-class-properties", "@babel/proposal-object-rest-spread"],
           },
         },
       },

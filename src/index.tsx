@@ -1,13 +1,10 @@
 import React from 'react'
 import ReactDOM from "react-dom/client";
 import { render } from 'react-dom'
-import App from './App'
 import './styles/style.css'
 import './styles/style.scss'
+import App from '../src/components/App';
 
-const n:number = 23
-console.log('ANSWER')
-console.log(n)
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
