@@ -1,0 +1,430 @@
+.slideone-container {
+  display: flex;
+  position: absolute;
+}
+
+.slideone-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #42567a;
+  border-radius: 50%;
+  transition: 0.3s;
+  left: -139px;
+  top: -228px;
+  font-size: 0px;
+  cursor: pointer;
+  &:hover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #f4f5f9;
+    border: 1px solid rgba(66, 86, 122, 0.5);
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #42567a;
+    left: -160px;
+    top: -255px;
+  }
+}
+
+.slideone-point-2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: #f4f5f9;
+  border: 1px solid rgba(66, 86, 122, 0.5);
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #42567a;
+  left: 110px;
+  top: -250px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slideone-point-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #42567a;
+  border-radius: 50%;
+  margin-bottom: 493px;
+  bottom: 126px;
+  transition: 0.3s;
+  font-size: 0px;
+  left: 262px;
+  top: -2px;
+  z-index: 99;
+  cursor: pointer;
+  &:hover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #f4f5f9;
+    border: 1px solid rgba(66, 86, 122, 0.5);
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #42567a;
+    left: 237px;
+    top: -26px;
+    border-radius: 50%;
+  }
+}
+
+.slideone-point-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #42567a;
+  border-radius: 50%;
+  margin-bottom: 493px;
+  bottom: 126px;
+  transition: 0.3s;
+  font-size: 0px;
+  left: 136px;
+  top: 223px;
+  cursor: pointer;
+  &:hover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #f4f5f9;
+    border: 1px solid rgba(66, 86, 122, 0.5);
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #42567a;
+    left: 110px;
+    top: 198px;
+  }
+}
+
+.slideone-point-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #42567a;
+  border-radius: 50%;
+  transition: 0.3s;
+  left: -139px;
+  top: 224px;
+  font-size: 0px;
+  cursor: pointer;
+  &:hover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #f4f5f9;
+    border: 1px solid rgba(66, 86, 122, 0.5);
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #42567a;
+    left: -163px;
+    top: 200px;
+  }
+}
+
+.slideone-point-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #42567a;
+  border-radius: 50%;
+  margin-bottom: 493px;
+  bottom: 126px;
+  transition: 0.3s;
+  font-size: 0px;
+  left: -267px;
+  top: -2px;
+  z-index: 99;
+  cursor: pointer;
+  &:hover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #f4f5f9;
+    border: 1px solid rgba(66, 86, 122, 0.5);
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #42567a;
+    left: -294px;
+    top: -29px;
+  }
+}
+
+.slideone-container-date {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  width: 973px;
+  height: 160px;
+  top: -86px;
+  left: -510px;
+  .slideone-container-date-first {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 160px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #5d5fef;
+  }
+
+  .slideone-container-date-second {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 160px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ef5da8;
+  }
+}
+
+.slideone-container-content {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  height: 190px;
+  top: 356px;
+  left: -640px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  cursor: pointer;
+  .slideone-container-content-wrapper {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 135px;
+    .slideone-container-content-date {
+      display: flex;
+      position: absolute;
+      font-family: "Bebas Neue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: #3877ee;
+    }
+    .slideone-container-content-text {
+      display: flex;
+      position: absolute;
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #42567a;
+      top: 30px;
+    }
+  }
+  .slideone-container-content-wrapper-2 {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 135px;
+    left: 0px;
+    .slideone-container-content-date-2 {
+      display: flex;
+      position: absolute;
+      font-family: "Bebas Neue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: #3877ee;
+    }
+    .slideone-container-content-text-2 {
+      display: flex;
+      position: absolute;
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #42567a;
+      top: 30px;
+    }
+  }
+  .slideone-container-content-wrapper-3 {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 135px;
+    right: 0;
+    .slideone-container-content-date-3 {
+      display: flex;
+      position: absolute;
+      font-family: "Bebas Neue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: #3877ee;
+    }
+    .slideone-container-content-text-3 {
+      display: flex;
+      position: absolute;
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #42567a;
+      top: 30px;
+    }
+  }
+  .slideone-container-content-wrapper-4 {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 135px;
+    right: -420px;
+    .slideone-container-content-date-4 {
+      display: flex;
+      position: absolute;
+      font-family: "Bebas Neue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: #3877ee;
+    }
+    .slideone-container-content-text-4 {
+      display: flex;
+      position: absolute;
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #42567a;
+      top: 30px;
+    }
+  }
+  .slideone-container-content-wrapper-5 {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 135px;
+    right: -840px;
+    .slideone-container-content-date-5 {
+      display: flex;
+      position: absolute;
+      font-family: "Bebas Neue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: #3877ee;
+    }
+    .slideone-container-content-text-5 {
+      display: flex;
+      position: absolute;
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #42567a;
+      top: 30px;
+    }
+  }
+}
+
+.slideone-container-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  left: 594px;
+  top: 427px;
+  width: 40px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #3877ee;
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(56, 119, 238, 0.1);
+  cursor: pointer;
+}
+
+.slideone-container-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: -696px;
+  top: 429px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #3877ee;
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(56, 119, 238, 0.1);
+  cursor: pointer;
+}

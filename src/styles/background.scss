@@ -1,0 +1,122 @@
+.border-left-right-linecenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 1440px;
+  margin-left: 240px;
+  margin-right: 240px;
+  height: 1080px;
+  border-right: 1px solid rgba(66, 86, 122, 1);
+  border-left: 1px solid rgba(66, 86, 122, 1);
+  background: linear-gradient(#42567a, #42567a) no-repeat center/1px 100%;
+  opacity: 0.1;
+}
+.border-linehorizont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  background: rgba(66, 86, 122, 0.1);
+}
+.circle {
+  position: absolute;
+  width: 530px;
+  height: 530px;
+  border: 1px solid rgba(66, 86, 122, 0.2);
+  border-radius: 50%;
+}
+.container-history {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items:center;
+  top: 177px;
+  left: 240px;
+  .history-vector {
+    height: 120px;
+    width: 5px;
+    background: linear-gradient(180deg, #3877ee -5%, #ef5da8 85%);
+  }
+  .history-date {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #42567A;
+    margin-left: 78px;
+  }
+}
+
+
+// .slideone-container-taps-numbers {
+//   position: absolute;
+//   font-family: "PT Sans";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 18px;
+//   color: #42567a;
+//   left: -640px;
+//   top: 207px;
+//   .slideone-container-taps-numbers-p1 {
+//     position: absolute;
+//     left: 30px;
+//     font-family: "PT Sans";
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 18px;
+//     color: #42567a;
+//   }
+//   .slideone-container-taps-numbers-p2 {
+//     position: absolute;
+//     font-family: "PT Sans";
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 18px;
+//     color: #42567a;
+//     left: 20px;
+//   }
+//   .slideone-container-taps-numbers-p3 {
+//     font-family: "PT Sans";
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 18px;
+//     color: #42567a;
+//   }
+//     .slideone-container-taps-numbers-min {
+//       position: absolute;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       width: 50px;
+//       top: 40px;
+//       height: 50px;
+//       border-radius: 50%;
+//       border: 1px solid rgba(66, 86, 122, 0.5);
+//       font-family: "Poppins", sans-serif;
+//       font-size: 30px;
+//       cursor: pointer;
+//     }
+//     .slideone-container-taps-numbers-max {
+//       position: absolute;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       border-radius: 50%;
+//       left: 70px;
+//       top: 40px;
+//       width: 50px;
+//       height: 50px;
+//       border: 1px solid rgba(66, 86, 122, 0.5);
+//       font-family: "Poppins", sans-serif;
+//       font-size: 30px;
+//       cursor: pointer;
+//     }
+// }

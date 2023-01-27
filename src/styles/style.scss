@@ -1,15 +1,93 @@
 @import "~normalize.css";
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:bisque;
-    width: 300px;
-    height: 300px;
+
+body {
+  background-color: #f4f5f9;
 }
 
-body{
-    background-color: red;
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  margin-left: 240px;
+  margin-right: 240px;
+  height: 100vh;
+}
+
+.slideone-container-taps {
+  position: absolute;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #42567a;
+  left: 330px;
+  top: 640px;
+  .slideone-container-taps-numbers {
+    position: absolute;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
+    line-height: 18px;
+    color: #42567a;
+    .slideone-container-taps-numbers-p1 {
+      position: absolute;
+      left: 30px;
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #42567a;
+    }
+    .slideone-container-taps-numbers-p2 {
+      position: absolute;
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #42567a;
+      left: 20px;
+    }
+    .slideone-container-taps-numbers-p3 {
+      font-family: "PT Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #42567a;
+    }
+    .slideone-container-taps-numbers-min {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      top: 40px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid rgba(66, 86, 122, 0.5);
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .slideone-container-taps-numbers-max {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      left: 70px;
+      top: 40px;
+      width: 50px;
+      height: 50px;
+      border: 1px solid rgba(66, 86, 122, 0.5);
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  }
 }
-
